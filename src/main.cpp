@@ -61,7 +61,7 @@ int main(void){
     matrix[start_point.first][start_point.second].active = 1;
 
     makeMaze(matrix);
-    InitWindow(screenWidth, screenHeight, "raylib [core] example - basic window");
+    InitWindow(screenWidth, screenHeight, "Maze A* demo");
     SetTargetFPS(144);
     while (!WindowShouldClose()){
         mouseX = GetMouseX();

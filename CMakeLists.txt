@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(raylib_project)
+project(AstarMaze)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 11)
@@ -20,6 +20,6 @@ if (NOT raylib_FOUND)
 endif()
 
 # Add executable and link Raylib
-add_executable(raylib_project src/main.cpp)
-target_link_libraries(raylib_project raylib)
+add_executable(AstarMaze src/main.cpp)
+target_link_libraries(AstarMaze raylib)
 
