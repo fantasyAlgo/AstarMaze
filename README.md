@@ -1,7 +1,7 @@
 # AstarMaze
 **A small demo showcasing an entity finding a path through a procedurally generated maze using the Astar algorithm.**
 ![pictureProgram](https://github.com/user-attachments/assets/83ac28e8-6ed1-4499-9e2f-f40f9d711a1d)
-## Prerequisits
+## Prerequisites
 - CMake
 - Raylib, CMake will automatically install it if you don't have it locally
 ## How to run
